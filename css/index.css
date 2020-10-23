@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+  background-color: #1f1f65;
+  color: white;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+#heading{
+    background-image: url("../incredibleindia/Chhatrapati\ Shivaji\ Maharaj\ Terminal.jpg");
+    height: 80pc;
+    font-size: 100px;
+    padding: 30px;
+    text-align: left;
+  
+}
+
+
+#content{
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows:35% 35% 35%;
+    grid-gap: 50px;
+    grid-row-gap: 100px;
+    justify-items: center;
+    overflow: hidden;
+}
+#first{
+    height:800px;
+    position: relative;
+}
+#second{
+    height:800px;
+    position: relative;
+}
+#third{
+    height:800px;
+    position: relative;
+}
+#fifth{
+    height:800px;
+  grid-column: 3;
+  position: relative;
+}
+#fourth{
+    height:800px;
+    grid-column: 2;
+    position: relative;
+}
+.back{
+    background-color: black;
+    font-size: 20px;
+}
+.details p{
+    font-size: 25px;
+}
+.details{
+    background-color: black;
+    font-size: 50px;
+    height:100%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: oblique;
+    position: absolute;
+    top:0%;
+    left:0%;
+    text-align: center;
+    display: none;
+    opacity:0.8;
+}
+#info{
+    background-color:green;
+    grid-row: 2;
+    width: 100%;
+    padding: 30px;
+    opacity: 0.8;
+    
+}
+#view{
+    border-radius: 20px;
+    border:none;
+    background-color: #f2f2f2;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#more-info{
+    font-size :30px;
+    display: none;
+}
+footer{
+    margin:10px;
+    background-color: #4c974d;
+     font-size :25px;
+    width:100%;
+}
